@@ -1,0 +1,2531 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Dec 05 14:37:09 2016
+# Process ID: 9224
+# Current directory: C:/Users/Tod/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3572
+# Log file: C:/Users/Tod/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/Tod/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 753.988 ; gain = 111.258
+update_compile_order -fileset sources_1
+launch_runs impl_1
+[Mon Dec 05 14:37:39 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.runs/impl_1/runme.log
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TopModule_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TopModule_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/JumpAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module JumpAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux6Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux6Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IDEXReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEXReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ALU32Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/EXMEMReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEMReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/MEMWBReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWBReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ClkDiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClkDiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit3To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux1Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux1Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/ForwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/new/IFID_FlushHandler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID_FlushHandler
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionFetchUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/SignExtension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux2Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/HiLoReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HiLoReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux5Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux5Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IFIDReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFIDReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/HazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_RegDst, assumed default net type wire [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:421]
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_Branch, assumed default net type wire [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:429]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto fcae05c3ea364b038aab234ad75d419d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopModule_tb_behav xil_defaultlib.TopModule_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ClkDiv
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.Mux5Bit2To1
+Compiling module xil_defaultlib.Mux32Bit3To1
+Compiling module xil_defaultlib.Mux32Bit2To1
+Compiling module xil_defaultlib.Mux6Bit2To1
+Compiling module xil_defaultlib.Mux1Bit2To1
+Compiling module xil_defaultlib.Mux2Bit2To1
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.JumpAdder
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.HiLoReg
+Compiling module xil_defaultlib.ALU32Bit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.SignExtension
+Compiling module xil_defaultlib.IFID_FlushHandler
+Compiling module xil_defaultlib.IFIDReg
+Compiling module xil_defaultlib.IDEXReg
+Compiling module xil_defaultlib.EXMEMReg
+Compiling module xil_defaultlib.MEMWBReg
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.TopModule
+Compiling module xil_defaultlib.TopModule_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopModule_tb_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/xsim.dir/TopModule_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Dec 05 14:38:46 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TopModule_tb_behav -key {Behavioral:sim_1:Functional:TopModule_tb} -tclbatch {TopModule_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source TopModule_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TopModule_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 768.746 ; gain = 5.418
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+launch_simulation -mode post-synthesis -type functional
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 284 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 128 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 128 instances
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 1112.461 ; gain = 310.082
+INFO: [USF-XSim-29] Writing simulation netlist file for design 'synth_1'...
+INFO: [USF-XSim-90] write_verilog -mode funcsim -nolib -force -file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func/TopModule_tb_func_synth.v"
+INFO: [USF-XSim-34] Netlist generated:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func/TopModule_tb_func_synth.v
+INFO: [USF-XSim-37] Inspecting design source files for 'TopModule_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func'
+"xvlog -m64 --relax -prj TopModule_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func/TopModule_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-311] analyzing module EXMEMReg
+INFO: [VRFC 10-311] analyzing module HiLoReg
+INFO: [VRFC 10-311] analyzing module IDEXReg
+INFO: [VRFC 10-311] analyzing module IFIDReg
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-311] analyzing module JumpAdder
+INFO: [VRFC 10-311] analyzing module MEMWBReg
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_0
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_1
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_2
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_5
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1_3
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1_4
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-311] analyzing module ProgramCounter__2
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-311] analyzing module TopModule
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto fcae05c3ea364b038aab234ad75d419d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot TopModule_tb_func_synth xil_defaultlib.TopModule_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.ALU32Bit
+Compiling module unisims_ver.LUT6
+Compiling module xil_defaultlib.Mux32Bit2To1
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.LUT5
+Compiling module xil_defaultlib.Mux32Bit2To1_0
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.RAM256X1S
+Compiling module xil_defaultlib.DataMemory
+Compiling module unisims_ver.LUT4
+Compiling module xil_defaultlib.Mux32Bit3To1
+Compiling module xil_defaultlib.Mux32Bit2To1_1
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module xil_defaultlib.HiLoReg
+Compiling module xil_defaultlib.JumpAdder
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(DOA_REG=0,DOB...
+Compiling module unisims_ver.RAMB18E1(INITP_00=256'b011000000...
+Compiling module xil_defaultlib.Mux32Bit2To1_5
+Compiling module xil_defaultlib.ProgramCounter__2
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.MUXF7
+Compiling module unisims_ver.latchsre_ldce
+Compiling module unisims_ver.LDCE
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.Mux32Bit2To1_2
+Compiling module xil_defaultlib.Mux32Bit3To1_3
+Compiling module xil_defaultlib.Mux32Bit3To1_4
+Compiling module unisims_ver.ffsrce_fdce
+Compiling module unisims_ver.FDCE
+Compiling module xil_defaultlib.IFIDReg
+Compiling module unisims_ver.MUXF8
+Compiling module xil_defaultlib.IDEXReg
+Compiling module xil_defaultlib.MEMWBReg
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.EXMEMReg
+Compiling module xil_defaultlib.TopModule
+Compiling module xil_defaultlib.TopModule_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopModule_tb_func_synth
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func/xsim.dir/TopModule_tb_func_synth/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Dec 05 14:40:16 2016...
+run_program: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1454.582 ; gain = 338.930
+INFO: [USF-XSim-69] 'elaborate' step finished in '17' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TopModule_tb_func_synth -key {Post-Synthesis:sim_1:Functional:TopModule_tb} -tclbatch {TopModule_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source TopModule_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TopModule_tb_func_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:39 ; elapsed = 00:00:35 . Memory (MB): peak = 1474.961 ; gain = 672.582
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+launch_simulation -mode post-implementation -type functional
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [Netlist 29-17] Analyzing 283 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.950 . Memory (MB): peak = 1585.289 ; gain = 7.980
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.950 . Memory (MB): peak = 1585.289 ; gain = 7.980
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 128 instances were transformed.
+  RAM256X1S => RAM256X1S (RAMS64E, RAMS64E, RAMS64E, RAMS64E, MUXF7, MUXF7, MUXF8): 128 instances
+
+INFO: [USF-XSim-32] Writing simulation netlist file for design 'impl_1'...
+INFO: [USF-XSim-92] write_verilog -mode funcsim -nolib -force -file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/TopModule_tb_func_impl.v"
+INFO: [USF-XSim-34] Netlist generated:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/TopModule_tb_func_impl.v
+INFO: [USF-XSim-37] Inspecting design source files for 'TopModule_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func'
+"xvlog -m64 --relax -prj TopModule_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/TopModule_tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-311] analyzing module EXMEMReg
+INFO: [VRFC 10-311] analyzing module HiLoReg
+INFO: [VRFC 10-311] analyzing module IDEXReg
+INFO: [VRFC 10-311] analyzing module IFIDReg
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-311] analyzing module JumpAdder
+INFO: [VRFC 10-311] analyzing module MEMWBReg
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_0
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_1
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_2
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_5
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1_3
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1_4
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-311] analyzing module ProgramCounter__2
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-311] analyzing module TopModule
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto fcae05c3ea364b038aab234ad75d419d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot TopModule_tb_func_impl xil_defaultlib.TopModule_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.ALU32Bit
+Compiling module unisims_ver.LUT6
+Compiling module xil_defaultlib.Mux32Bit2To1
+Compiling module unisims_ver.LUT5
+Compiling module xil_defaultlib.Mux32Bit2To1_0
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.RAM256X1S
+Compiling module xil_defaultlib.DataMemory
+Compiling module unisims_ver.LUT4
+Compiling module xil_defaultlib.Mux32Bit3To1
+Compiling module xil_defaultlib.Mux32Bit2To1_1
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module xil_defaultlib.HiLoReg
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.JumpAdder
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(DOA_REG=0,DOB...
+Compiling module unisims_ver.RAMB18E1(INITP_00=256'b011000000...
+Compiling module xil_defaultlib.Mux32Bit2To1_5
+Compiling module xil_defaultlib.ProgramCounter__2
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.MUXF7
+Compiling module unisims_ver.latchsre_ldce
+Compiling module unisims_ver.LDCE
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.Mux32Bit2To1_2
+Compiling module xil_defaultlib.Mux32Bit3To1_3
+Compiling module xil_defaultlib.Mux32Bit3To1_4
+Compiling module unisims_ver.ffsrce_fdce
+Compiling module unisims_ver.FDCE
+Compiling module xil_defaultlib.IFIDReg
+Compiling module unisims_ver.MUXF8
+Compiling module xil_defaultlib.IDEXReg
+Compiling module xil_defaultlib.MEMWBReg
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.EXMEMReg
+Compiling module xil_defaultlib.TopModule
+Compiling module xil_defaultlib.TopModule_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopModule_tb_func_impl
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/xsim.dir/TopModule_tb_func_impl/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Dec 05 14:47:12 2016...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1643.547 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '14' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TopModule_tb_func_impl -key {Post-Implementation:sim_1:Functional:TopModule_tb} -tclbatch {TopModule_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source TopModule_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TopModule_tb_func_impl' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 1668.543 ; gain = 130.117
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+current_sim simulation_2
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: TopModule
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:03:49 ; elapsed = 00:17:54 . Memory (MB): peak = 1726.965 ; gain = 1520.352
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TopModule' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:8]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:14]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:15]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:16]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:17]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:18]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:19]
+INFO: [Synth 8-638] synthesizing module 'ClkDiv' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ClkDiv.v:2]
+	Parameter DivVal0 bound to: 50000000 - type: integer 
+	Parameter DivVal1 bound to: 45000000 - type: integer 
+	Parameter DivVal2 bound to: 40000000 - type: integer 
+	Parameter DivVal3 bound to: 35000000 - type: integer 
+	Parameter DivVal4 bound to: 30000000 - type: integer 
+	Parameter DivVal5 bound to: 25000000 - type: integer 
+	Parameter DivVal6 bound to: 20000000 - type: integer 
+	Parameter DivVal7 bound to: 15000000 - type: integer 
+	Parameter DivVal8 bound to: 10000000 - type: integer 
+	Parameter DivVal9 bound to: 5000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ClkDiv' (1#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ClkDiv.v:2]
+INFO: [Synth 8-638] synthesizing module 'Controller' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Controller.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Controller' (2#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Controller.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux5Bit2To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux5Bit2To1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux5Bit2To1' (3#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux5Bit2To1.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux32Bit3To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit3To1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux32Bit3To1' (4#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit3To1.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux32Bit2To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit2To1.v:10]
+INFO: [Synth 8-256] done synthesizing module 'Mux32Bit2To1' (5#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit2To1.v:10]
+INFO: [Synth 8-638] synthesizing module 'Mux6Bit2To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux6Bit2To1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux6Bit2To1' (6#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux6Bit2To1.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux1Bit2To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux1Bit2To1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux1Bit2To1' (7#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux1Bit2To1.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux2Bit2To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux2Bit2To1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux2Bit2To1' (8#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux2Bit2To1.v:23]
+INFO: [Synth 8-638] synthesizing module 'InstructionFetchUnit' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionFetchUnit.v:40]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ProgramCounter.v:27]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (9#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ProgramCounter.v:27]
+INFO: [Synth 8-638] synthesizing module 'InstructionMemory' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v:39]
+INFO: [Synth 8-3876] $readmem data file 'C:/Users/Tod/Documents/Fall2016/369/Labs/LABS16-24_pipelining_fall2016/instruction_memory.txt' is read successfully [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v:50]
+INFO: [Synth 8-256] done synthesizing module 'InstructionMemory' (10#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v:39]
+INFO: [Synth 8-638] synthesizing module 'PCAdder' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/PCAdder.v:22]
+INFO: [Synth 8-256] done synthesizing module 'PCAdder' (11#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/PCAdder.v:22]
+INFO: [Synth 8-638] synthesizing module 'JumpAdder' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/JumpAdder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'JumpAdder' (12#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/JumpAdder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'InstructionFetchUnit' (13#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionFetchUnit.v:40]
+INFO: [Synth 8-638] synthesizing module 'RegisterFile' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v:51]
+WARNING: [Synth 8-567] referenced signal 'Registers' should be on the sensitivity list [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v:106]
+INFO: [Synth 8-256] done synthesizing module 'RegisterFile' (14#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v:51]
+INFO: [Synth 8-638] synthesizing module 'HiLoReg' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/HiLoReg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'HiLoReg' (15#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/HiLoReg.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALU32Bit' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ALU32Bit.v:67]
+INFO: [Synth 8-256] done synthesizing module 'ALU32Bit' (16#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ALU32Bit.v:67]
+INFO: [Synth 8-638] synthesizing module 'DataMemory' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/DataMemory.v:38]
+INFO: [Synth 8-256] done synthesizing module 'DataMemory' (17#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/DataMemory.v:38]
+INFO: [Synth 8-638] synthesizing module 'SignExtension' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/SignExtension.v:8]
+INFO: [Synth 8-256] done synthesizing module 'SignExtension' (18#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/SignExtension.v:8]
+INFO: [Synth 8-638] synthesizing module 'IFID_FlushHandler' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/new/IFID_FlushHandler.v:23]
+INFO: [Synth 8-256] done synthesizing module 'IFID_FlushHandler' (19#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/new/IFID_FlushHandler.v:23]
+INFO: [Synth 8-638] synthesizing module 'IFIDReg' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IFIDReg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'IFIDReg' (20#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IFIDReg.v:23]
+INFO: [Synth 8-638] synthesizing module 'IDEXReg' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IDEXReg.v:26]
+INFO: [Synth 8-256] done synthesizing module 'IDEXReg' (21#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IDEXReg.v:26]
+INFO: [Synth 8-638] synthesizing module 'EXMEMReg' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/EXMEMReg.v:25]
+INFO: [Synth 8-256] done synthesizing module 'EXMEMReg' (22#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/EXMEMReg.v:25]
+INFO: [Synth 8-638] synthesizing module 'MEMWBReg' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/MEMWBReg.v:24]
+INFO: [Synth 8-256] done synthesizing module 'MEMWBReg' (23#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/MEMWBReg.v:24]
+INFO: [Synth 8-638] synthesizing module 'ForwardingUnit' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/ForwardingUnit.v:22]
+INFO: [Synth 8-256] done synthesizing module 'ForwardingUnit' (24#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/ForwardingUnit.v:22]
+INFO: [Synth 8-638] synthesizing module 'HazardDetectionUnit' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/HazardDetectionUnit.v:22]
+INFO: [Synth 8-256] done synthesizing module 'HazardDetectionUnit' (25#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/HazardDetectionUnit.v:22]
+INFO: [Synth 8-256] done synthesizing module 'TopModule' (26#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:8]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[31]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[30]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[29]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[28]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[27]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[26]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[25]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[24]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[23]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[22]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[21]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[20]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[19]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[18]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[17]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[16]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[15]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[14]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[13]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[12]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[1]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[0]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port Address[1]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port Address[0]
+WARNING: [Synth 8-3331] design Controller has unconnected port Instruction[15]
+WARNING: [Synth 8-3331] design Controller has unconnected port Instruction[14]
+WARNING: [Synth 8-3331] design Controller has unconnected port Instruction[13]
+WARNING: [Synth 8-3331] design Controller has unconnected port Instruction[12]
+WARNING: [Synth 8-3331] design Controller has unconnected port Instruction[11]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:03:51 ; elapsed = 00:17:56 . Memory (MB): peak = 1769.063 ; gain = 1562.449
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:51 ; elapsed = 00:17:56 . Memory (MB): peak = 1769.063 ; gain = 1562.449
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:03:58 ; elapsed = 00:18:01 . Memory (MB): peak = 1898.172 ; gain = 1691.559
+62 Infos, 30 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1898.172 ; gain = 202.426
+current_sim simulation_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/TopModule_tb_behav.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TopModule_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TopModule_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/JumpAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module JumpAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux6Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux6Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IDEXReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEXReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ALU32Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/EXMEMReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEMReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/MEMWBReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWBReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ClkDiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClkDiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit3To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux1Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux1Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/ForwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/new/IFID_FlushHandler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID_FlushHandler
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionFetchUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/SignExtension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux2Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/HiLoReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HiLoReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux5Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux5Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IFIDReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFIDReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/HazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_RegDst, assumed default net type wire [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:421]
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_Branch, assumed default net type wire [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:429]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto fcae05c3ea364b038aab234ad75d419d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopModule_tb_behav xil_defaultlib.TopModule_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ClkDiv
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.Mux5Bit2To1
+Compiling module xil_defaultlib.Mux32Bit3To1
+Compiling module xil_defaultlib.Mux32Bit2To1
+Compiling module xil_defaultlib.Mux6Bit2To1
+Compiling module xil_defaultlib.Mux1Bit2To1
+Compiling module xil_defaultlib.Mux2Bit2To1
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.JumpAdder
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.HiLoReg
+Compiling module xil_defaultlib.ALU32Bit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.SignExtension
+Compiling module xil_defaultlib.IFID_FlushHandler
+Compiling module xil_defaultlib.IFIDReg
+Compiling module xil_defaultlib.IDEXReg
+Compiling module xil_defaultlib.EXMEMReg
+Compiling module xil_defaultlib.MEMWBReg
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.TopModule
+Compiling module xil_defaultlib.TopModule_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopModule_tb_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/xsim.dir/TopModule_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Dec 05 15:03:11 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TopModule_tb_behav -key {Behavioral:sim_1:Functional:TopModule_tb} -tclbatch {TopModule_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source TopModule_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TopModule_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1898.172 ; gain = 0.000
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TopModule_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TopModule_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/JumpAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module JumpAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux6Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux6Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IDEXReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEXReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ALU32Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/EXMEMReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEMReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/MEMWBReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWBReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ClkDiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClkDiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit3To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux1Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux1Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/ForwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/new/IFID_FlushHandler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID_FlushHandler
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionFetchUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/SignExtension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux2Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/HiLoReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HiLoReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux5Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux5Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IFIDReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFIDReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/HazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_RegDst, assumed default net type wire [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:421]
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_Branch, assumed default net type wire [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:429]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto fcae05c3ea364b038aab234ad75d419d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopModule_tb_behav xil_defaultlib.TopModule_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ClkDiv
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.Mux5Bit2To1
+Compiling module xil_defaultlib.Mux32Bit3To1
+Compiling module xil_defaultlib.Mux32Bit2To1
+Compiling module xil_defaultlib.Mux6Bit2To1
+Compiling module xil_defaultlib.Mux1Bit2To1
+Compiling module xil_defaultlib.Mux2Bit2To1
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.JumpAdder
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.HiLoReg
+Compiling module xil_defaultlib.ALU32Bit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.SignExtension
+Compiling module xil_defaultlib.IFID_FlushHandler
+Compiling module xil_defaultlib.IFIDReg
+Compiling module xil_defaultlib.IDEXReg
+Compiling module xil_defaultlib.EXMEMReg
+Compiling module xil_defaultlib.MEMWBReg
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.TopModule
+Compiling module xil_defaultlib.TopModule_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopModule_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1898.172 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+run 13000 ns
+current_sim simulation_2
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-29] Writing simulation netlist file for design 'synth_1'...
+INFO: [USF-XSim-90] write_verilog -mode funcsim -nolib -force -file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func/TopModule_tb_func_synth.v"
+INFO: [USF-XSim-34] Netlist generated:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func/TopModule_tb_func_synth.v
+INFO: [USF-XSim-37] Inspecting design source files for 'TopModule_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func'
+"xvlog -m64 --relax -prj TopModule_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func/TopModule_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-311] analyzing module EXMEMReg
+INFO: [VRFC 10-311] analyzing module HiLoReg
+INFO: [VRFC 10-311] analyzing module IDEXReg
+INFO: [VRFC 10-311] analyzing module IFIDReg
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-311] analyzing module JumpAdder
+INFO: [VRFC 10-311] analyzing module MEMWBReg
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_0
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_1
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_2
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_5
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1_3
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1_4
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-311] analyzing module ProgramCounter__2
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-311] analyzing module TopModule
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto fcae05c3ea364b038aab234ad75d419d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot TopModule_tb_func_synth xil_defaultlib.TopModule_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.ALU32Bit
+Compiling module unisims_ver.LUT6
+Compiling module xil_defaultlib.Mux32Bit2To1
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.LUT5
+Compiling module xil_defaultlib.Mux32Bit2To1_0
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.RAM256X1S
+Compiling module xil_defaultlib.DataMemory
+Compiling module unisims_ver.LUT4
+Compiling module xil_defaultlib.Mux32Bit3To1
+Compiling module xil_defaultlib.Mux32Bit2To1_1
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module xil_defaultlib.HiLoReg
+Compiling module xil_defaultlib.JumpAdder
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(DOA_REG=0,DOB...
+Compiling module unisims_ver.RAMB18E1(INITP_00=256'b011000000...
+Compiling module xil_defaultlib.Mux32Bit2To1_5
+Compiling module xil_defaultlib.ProgramCounter__2
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.MUXF7
+Compiling module unisims_ver.latchsre_ldce
+Compiling module unisims_ver.LDCE
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.Mux32Bit2To1_2
+Compiling module xil_defaultlib.Mux32Bit3To1_3
+Compiling module xil_defaultlib.Mux32Bit3To1_4
+Compiling module unisims_ver.ffsrce_fdce
+Compiling module unisims_ver.FDCE
+Compiling module xil_defaultlib.IFIDReg
+Compiling module unisims_ver.MUXF8
+Compiling module xil_defaultlib.IDEXReg
+Compiling module xil_defaultlib.MEMWBReg
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.EXMEMReg
+Compiling module xil_defaultlib.TopModule
+Compiling module xil_defaultlib.TopModule_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopModule_tb_func_synth
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1898.172 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '14' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1898.172 ; gain = 0.000
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:19 . Memory (MB): peak = 1898.172 ; gain = 0.000
+run 13000 ns
+current_design rtl_1
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:05:14 ; elapsed = 00:30:38 . Memory (MB): peak = 1898.172 ; gain = 1691.559
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TopModule' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:8]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:14]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:15]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:16]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:17]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:18]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:19]
+INFO: [Synth 8-638] synthesizing module 'ClkDiv' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ClkDiv.v:2]
+	Parameter DivVal0 bound to: 50000000 - type: integer 
+	Parameter DivVal1 bound to: 45000000 - type: integer 
+	Parameter DivVal2 bound to: 40000000 - type: integer 
+	Parameter DivVal3 bound to: 35000000 - type: integer 
+	Parameter DivVal4 bound to: 30000000 - type: integer 
+	Parameter DivVal5 bound to: 25000000 - type: integer 
+	Parameter DivVal6 bound to: 20000000 - type: integer 
+	Parameter DivVal7 bound to: 15000000 - type: integer 
+	Parameter DivVal8 bound to: 10000000 - type: integer 
+	Parameter DivVal9 bound to: 5000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ClkDiv' (1#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ClkDiv.v:2]
+INFO: [Synth 8-638] synthesizing module 'Controller' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Controller.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Controller' (2#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Controller.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux5Bit2To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux5Bit2To1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux5Bit2To1' (3#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux5Bit2To1.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux32Bit3To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit3To1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux32Bit3To1' (4#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit3To1.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux32Bit2To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit2To1.v:10]
+INFO: [Synth 8-256] done synthesizing module 'Mux32Bit2To1' (5#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit2To1.v:10]
+INFO: [Synth 8-638] synthesizing module 'Mux6Bit2To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux6Bit2To1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux6Bit2To1' (6#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux6Bit2To1.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux1Bit2To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux1Bit2To1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux1Bit2To1' (7#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux1Bit2To1.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux2Bit2To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux2Bit2To1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux2Bit2To1' (8#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux2Bit2To1.v:23]
+INFO: [Synth 8-638] synthesizing module 'InstructionFetchUnit' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionFetchUnit.v:40]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ProgramCounter.v:27]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (9#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ProgramCounter.v:27]
+INFO: [Synth 8-638] synthesizing module 'InstructionMemory' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v:39]
+INFO: [Synth 8-3876] $readmem data file 'C:/Users/Tod/Documents/Fall2016/369/Labs/LABS16-24_pipelining_fall2016/instruction_memory.txt' is read successfully [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v:50]
+INFO: [Synth 8-256] done synthesizing module 'InstructionMemory' (10#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v:39]
+INFO: [Synth 8-638] synthesizing module 'PCAdder' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/PCAdder.v:22]
+INFO: [Synth 8-256] done synthesizing module 'PCAdder' (11#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/PCAdder.v:22]
+INFO: [Synth 8-638] synthesizing module 'JumpAdder' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/JumpAdder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'JumpAdder' (12#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/JumpAdder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'InstructionFetchUnit' (13#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionFetchUnit.v:40]
+INFO: [Synth 8-638] synthesizing module 'RegisterFile' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v:51]
+INFO: [Synth 8-256] done synthesizing module 'RegisterFile' (14#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v:51]
+INFO: [Synth 8-638] synthesizing module 'HiLoReg' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/HiLoReg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'HiLoReg' (15#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/HiLoReg.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALU32Bit' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ALU32Bit.v:67]
+INFO: [Synth 8-256] done synthesizing module 'ALU32Bit' (16#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ALU32Bit.v:67]
+INFO: [Synth 8-638] synthesizing module 'DataMemory' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/DataMemory.v:38]
+INFO: [Synth 8-256] done synthesizing module 'DataMemory' (17#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/DataMemory.v:38]
+INFO: [Synth 8-638] synthesizing module 'SignExtension' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/SignExtension.v:8]
+INFO: [Synth 8-256] done synthesizing module 'SignExtension' (18#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/SignExtension.v:8]
+INFO: [Synth 8-638] synthesizing module 'IFID_FlushHandler' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/new/IFID_FlushHandler.v:23]
+INFO: [Synth 8-256] done synthesizing module 'IFID_FlushHandler' (19#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/new/IFID_FlushHandler.v:23]
+INFO: [Synth 8-638] synthesizing module 'IFIDReg' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IFIDReg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'IFIDReg' (20#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IFIDReg.v:23]
+INFO: [Synth 8-638] synthesizing module 'IDEXReg' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IDEXReg.v:26]
+INFO: [Synth 8-256] done synthesizing module 'IDEXReg' (21#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IDEXReg.v:26]
+INFO: [Synth 8-638] synthesizing module 'EXMEMReg' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/EXMEMReg.v:25]
+INFO: [Synth 8-256] done synthesizing module 'EXMEMReg' (22#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/EXMEMReg.v:25]
+INFO: [Synth 8-638] synthesizing module 'MEMWBReg' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/MEMWBReg.v:24]
+INFO: [Synth 8-256] done synthesizing module 'MEMWBReg' (23#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/MEMWBReg.v:24]
+INFO: [Synth 8-638] synthesizing module 'ForwardingUnit' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/ForwardingUnit.v:22]
+INFO: [Synth 8-256] done synthesizing module 'ForwardingUnit' (24#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/ForwardingUnit.v:22]
+INFO: [Synth 8-638] synthesizing module 'HazardDetectionUnit' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/HazardDetectionUnit.v:22]
+INFO: [Synth 8-256] done synthesizing module 'HazardDetectionUnit' (25#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/HazardDetectionUnit.v:22]
+INFO: [Synth 8-256] done synthesizing module 'TopModule' (26#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:8]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[31]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[30]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[29]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[28]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[27]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[26]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[25]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[24]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[23]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[22]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[21]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[20]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[19]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[18]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[17]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[16]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[15]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[14]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[13]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[12]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[1]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[0]
+WARNING: [Synth 8-3331] design RegisterFile has unconnected port Rst
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port Address[1]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port Address[0]
+WARNING: [Synth 8-3331] design Controller has unconnected port Instruction[15]
+WARNING: [Synth 8-3331] design Controller has unconnected port Instruction[14]
+WARNING: [Synth 8-3331] design Controller has unconnected port Instruction[13]
+WARNING: [Synth 8-3331] design Controller has unconnected port Instruction[12]
+WARNING: [Synth 8-3331] design Controller has unconnected port Instruction[11]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:05:16 ; elapsed = 00:30:40 . Memory (MB): peak = 1940.332 ; gain = 1733.719
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:05:16 ; elapsed = 00:30:40 . Memory (MB): peak = 1940.332 ; gain = 1733.719
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 2010.719 ; gain = 112.547
+current_sim simulation_4
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/TopModule_tb_behav.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TopModule_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TopModule_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/JumpAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module JumpAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux6Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux6Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IDEXReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEXReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ALU32Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/EXMEMReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEMReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/MEMWBReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWBReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ClkDiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClkDiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit3To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux1Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux1Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/ForwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/new/IFID_FlushHandler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID_FlushHandler
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionFetchUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/SignExtension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux2Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/HiLoReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HiLoReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux5Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux5Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IFIDReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFIDReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/HazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_RegDst, assumed default net type wire [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:421]
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_Branch, assumed default net type wire [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:429]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto fcae05c3ea364b038aab234ad75d419d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopModule_tb_behav xil_defaultlib.TopModule_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ClkDiv
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.Mux5Bit2To1
+Compiling module xil_defaultlib.Mux32Bit3To1
+Compiling module xil_defaultlib.Mux32Bit2To1
+Compiling module xil_defaultlib.Mux6Bit2To1
+Compiling module xil_defaultlib.Mux1Bit2To1
+Compiling module xil_defaultlib.Mux2Bit2To1
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.JumpAdder
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.HiLoReg
+Compiling module xil_defaultlib.ALU32Bit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.SignExtension
+Compiling module xil_defaultlib.IFID_FlushHandler
+Compiling module xil_defaultlib.IFIDReg
+Compiling module xil_defaultlib.IDEXReg
+Compiling module xil_defaultlib.EXMEMReg
+Compiling module xil_defaultlib.MEMWBReg
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.TopModule
+Compiling module xil_defaultlib.TopModule_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopModule_tb_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/xsim.dir/TopModule_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Dec 05 15:12:56 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TopModule_tb_behav -key {Behavioral:sim_1:Functional:TopModule_tb} -tclbatch {TopModule_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source TopModule_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TopModule_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 2010.719 ; gain = 0.000
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:05:55 ; elapsed = 00:35:56 . Memory (MB): peak = 2010.719 ; gain = 1804.105
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TopModule' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:8]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:14]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:15]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:16]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:17]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:18]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "TRUE" *) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:19]
+INFO: [Synth 8-638] synthesizing module 'ClkDiv' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ClkDiv.v:2]
+	Parameter DivVal0 bound to: 50000000 - type: integer 
+	Parameter DivVal1 bound to: 45000000 - type: integer 
+	Parameter DivVal2 bound to: 40000000 - type: integer 
+	Parameter DivVal3 bound to: 35000000 - type: integer 
+	Parameter DivVal4 bound to: 30000000 - type: integer 
+	Parameter DivVal5 bound to: 25000000 - type: integer 
+	Parameter DivVal6 bound to: 20000000 - type: integer 
+	Parameter DivVal7 bound to: 15000000 - type: integer 
+	Parameter DivVal8 bound to: 10000000 - type: integer 
+	Parameter DivVal9 bound to: 5000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ClkDiv' (1#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ClkDiv.v:2]
+INFO: [Synth 8-638] synthesizing module 'Controller' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Controller.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Controller' (2#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Controller.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux5Bit2To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux5Bit2To1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux5Bit2To1' (3#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux5Bit2To1.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux32Bit3To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit3To1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux32Bit3To1' (4#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit3To1.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux32Bit2To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit2To1.v:10]
+INFO: [Synth 8-256] done synthesizing module 'Mux32Bit2To1' (5#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit2To1.v:10]
+INFO: [Synth 8-638] synthesizing module 'Mux6Bit2To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux6Bit2To1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux6Bit2To1' (6#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux6Bit2To1.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux1Bit2To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux1Bit2To1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux1Bit2To1' (7#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux1Bit2To1.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux2Bit2To1' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux2Bit2To1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Mux2Bit2To1' (8#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux2Bit2To1.v:23]
+INFO: [Synth 8-638] synthesizing module 'InstructionFetchUnit' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionFetchUnit.v:40]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ProgramCounter.v:27]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (9#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ProgramCounter.v:27]
+INFO: [Synth 8-638] synthesizing module 'InstructionMemory' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v:39]
+INFO: [Synth 8-3876] $readmem data file 'C:/Users/Tod/Documents/Fall2016/369/Labs/LABS16-24_pipelining_fall2016/instruction_memory.txt' is read successfully [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v:50]
+INFO: [Synth 8-256] done synthesizing module 'InstructionMemory' (10#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v:39]
+INFO: [Synth 8-638] synthesizing module 'PCAdder' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/PCAdder.v:22]
+INFO: [Synth 8-256] done synthesizing module 'PCAdder' (11#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/PCAdder.v:22]
+INFO: [Synth 8-638] synthesizing module 'JumpAdder' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/JumpAdder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'JumpAdder' (12#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/JumpAdder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'InstructionFetchUnit' (13#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionFetchUnit.v:40]
+INFO: [Synth 8-638] synthesizing module 'RegisterFile' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v:51]
+INFO: [Synth 8-256] done synthesizing module 'RegisterFile' (14#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v:51]
+INFO: [Synth 8-638] synthesizing module 'HiLoReg' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/HiLoReg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'HiLoReg' (15#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/HiLoReg.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALU32Bit' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ALU32Bit.v:67]
+INFO: [Synth 8-256] done synthesizing module 'ALU32Bit' (16#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ALU32Bit.v:67]
+INFO: [Synth 8-638] synthesizing module 'DataMemory' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/DataMemory.v:38]
+INFO: [Synth 8-256] done synthesizing module 'DataMemory' (17#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/DataMemory.v:38]
+INFO: [Synth 8-638] synthesizing module 'SignExtension' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/SignExtension.v:8]
+INFO: [Synth 8-256] done synthesizing module 'SignExtension' (18#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/SignExtension.v:8]
+INFO: [Synth 8-638] synthesizing module 'IFID_FlushHandler' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/new/IFID_FlushHandler.v:23]
+INFO: [Synth 8-256] done synthesizing module 'IFID_FlushHandler' (19#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/new/IFID_FlushHandler.v:23]
+INFO: [Synth 8-638] synthesizing module 'IFIDReg' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IFIDReg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'IFIDReg' (20#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IFIDReg.v:23]
+INFO: [Synth 8-638] synthesizing module 'IDEXReg' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IDEXReg.v:26]
+INFO: [Synth 8-256] done synthesizing module 'IDEXReg' (21#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IDEXReg.v:26]
+INFO: [Synth 8-638] synthesizing module 'EXMEMReg' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/EXMEMReg.v:25]
+INFO: [Synth 8-256] done synthesizing module 'EXMEMReg' (22#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/EXMEMReg.v:25]
+INFO: [Synth 8-638] synthesizing module 'MEMWBReg' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/MEMWBReg.v:24]
+INFO: [Synth 8-256] done synthesizing module 'MEMWBReg' (23#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/MEMWBReg.v:24]
+INFO: [Synth 8-638] synthesizing module 'ForwardingUnit' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/ForwardingUnit.v:22]
+INFO: [Synth 8-256] done synthesizing module 'ForwardingUnit' (24#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/ForwardingUnit.v:22]
+INFO: [Synth 8-638] synthesizing module 'HazardDetectionUnit' [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/HazardDetectionUnit.v:22]
+INFO: [Synth 8-256] done synthesizing module 'HazardDetectionUnit' (25#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/HazardDetectionUnit.v:22]
+INFO: [Synth 8-256] done synthesizing module 'TopModule' (26#1) [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:8]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[31]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[30]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[29]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[28]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[27]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[26]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[25]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[24]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[23]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[22]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[21]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[20]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[19]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[18]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[17]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[16]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[15]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[14]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[13]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[12]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[1]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[0]
+WARNING: [Synth 8-3331] design RegisterFile has unconnected port Rst
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port Address[1]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port Address[0]
+WARNING: [Synth 8-3331] design Controller has unconnected port Instruction[15]
+WARNING: [Synth 8-3331] design Controller has unconnected port Instruction[14]
+WARNING: [Synth 8-3331] design Controller has unconnected port Instruction[13]
+WARNING: [Synth 8-3331] design Controller has unconnected port Instruction[12]
+WARNING: [Synth 8-3331] design Controller has unconnected port Instruction[11]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:05:56 ; elapsed = 00:35:58 . Memory (MB): peak = 2010.719 ; gain = 1804.105
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:05:56 ; elapsed = 00:35:58 . Memory (MB): peak = 2010.719 ; gain = 1804.105
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 2017.629 ; gain = 6.910
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+current_sim simulation_2
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-29] Writing simulation netlist file for design 'synth_1'...
+INFO: [USF-XSim-90] write_verilog -mode funcsim -nolib -force -file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func/TopModule_tb_func_synth.v"
+INFO: [USF-XSim-34] Netlist generated:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func/TopModule_tb_func_synth.v
+INFO: [USF-XSim-37] Inspecting design source files for 'TopModule_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func'
+"xvlog -m64 --relax -prj TopModule_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func/TopModule_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-311] analyzing module EXMEMReg
+INFO: [VRFC 10-311] analyzing module HiLoReg
+INFO: [VRFC 10-311] analyzing module IDEXReg
+INFO: [VRFC 10-311] analyzing module IFIDReg
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-311] analyzing module JumpAdder
+INFO: [VRFC 10-311] analyzing module MEMWBReg
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_0
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_1
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_2
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_5
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1_3
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1_4
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-311] analyzing module ProgramCounter__2
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-311] analyzing module TopModule
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto fcae05c3ea364b038aab234ad75d419d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot TopModule_tb_func_synth xil_defaultlib.TopModule_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.ALU32Bit
+Compiling module unisims_ver.LUT6
+Compiling module xil_defaultlib.Mux32Bit2To1
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.LUT5
+Compiling module xil_defaultlib.Mux32Bit2To1_0
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.RAM256X1S
+Compiling module xil_defaultlib.DataMemory
+Compiling module unisims_ver.LUT4
+Compiling module xil_defaultlib.Mux32Bit3To1
+Compiling module xil_defaultlib.Mux32Bit2To1_1
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module xil_defaultlib.HiLoReg
+Compiling module xil_defaultlib.JumpAdder
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(DOA_REG=0,DOB...
+Compiling module unisims_ver.RAMB18E1(INITP_00=256'b011000000...
+Compiling module xil_defaultlib.Mux32Bit2To1_5
+Compiling module xil_defaultlib.ProgramCounter__2
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.MUXF7
+Compiling module unisims_ver.latchsre_ldce
+Compiling module unisims_ver.LDCE
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.Mux32Bit2To1_2
+Compiling module xil_defaultlib.Mux32Bit3To1_3
+Compiling module xil_defaultlib.Mux32Bit3To1_4
+Compiling module unisims_ver.ffsrce_fdce
+Compiling module unisims_ver.FDCE
+Compiling module xil_defaultlib.IFIDReg
+Compiling module unisims_ver.MUXF8
+Compiling module xil_defaultlib.IDEXReg
+Compiling module xil_defaultlib.MEMWBReg
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.EXMEMReg
+Compiling module xil_defaultlib.TopModule
+Compiling module xil_defaultlib.TopModule_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopModule_tb_func_synth
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 2017.629 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 2017.629 ; gain = 0.000
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 2017.629 ; gain = 0.000
+run 13000 ns
+close_design
+close_design
+close_design
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v" into library work [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v:1]
+[Mon Dec 05 15:17:11 2016] Launched synth_1...
+Run output will be captured here: C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.runs/synth_1/runme.log
+launch_runs impl_1
+[Mon Dec 05 15:18:24 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -mode post-synthesis -type functional
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func/TopModule_tb_func_synth.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 284 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 128 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 128 instances
+
+open_run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 2017.629 ; gain = 0.000
+INFO: [USF-XSim-29] Writing simulation netlist file for design 'synth_1'...
+INFO: [USF-XSim-90] write_verilog -mode funcsim -nolib -force -file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func/TopModule_tb_func_synth.v"
+INFO: [USF-XSim-34] Netlist generated:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func/TopModule_tb_func_synth.v
+INFO: [USF-XSim-37] Inspecting design source files for 'TopModule_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func'
+"xvlog -m64 --relax -prj TopModule_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func/TopModule_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-311] analyzing module EXMEMReg
+INFO: [VRFC 10-311] analyzing module HiLoReg
+INFO: [VRFC 10-311] analyzing module IDEXReg
+INFO: [VRFC 10-311] analyzing module IFIDReg
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-311] analyzing module JumpAdder
+INFO: [VRFC 10-311] analyzing module MEMWBReg
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_0
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_1
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_2
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_5
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1_3
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1_4
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-311] analyzing module ProgramCounter__2
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-311] analyzing module TopModule
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto fcae05c3ea364b038aab234ad75d419d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot TopModule_tb_func_synth xil_defaultlib.TopModule_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.ALU32Bit
+Compiling module unisims_ver.LUT6
+Compiling module xil_defaultlib.Mux32Bit2To1
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.LUT5
+Compiling module xil_defaultlib.Mux32Bit2To1_0
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.RAM256X1S
+Compiling module xil_defaultlib.DataMemory
+Compiling module unisims_ver.LUT4
+Compiling module xil_defaultlib.Mux32Bit3To1
+Compiling module xil_defaultlib.Mux32Bit2To1_1
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module xil_defaultlib.HiLoReg
+Compiling module xil_defaultlib.JumpAdder
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(DOA_REG=0,DOB...
+Compiling module unisims_ver.RAMB18E1(INITP_00=256'b011000000...
+Compiling module xil_defaultlib.Mux32Bit2To1_5
+Compiling module xil_defaultlib.ProgramCounter__2
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.FDRE(IS_C_INVERTED=1'b1)
+Compiling module unisims_ver.MUXF8
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.Mux32Bit2To1_2
+Compiling module xil_defaultlib.Mux32Bit3To1_3
+Compiling module xil_defaultlib.Mux32Bit3To1_4
+Compiling module unisims_ver.ffsrce_fdce
+Compiling module unisims_ver.FDCE
+Compiling module xil_defaultlib.IFIDReg
+Compiling module xil_defaultlib.IDEXReg
+Compiling module xil_defaultlib.MEMWBReg
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.EXMEMReg
+Compiling module xil_defaultlib.TopModule
+Compiling module xil_defaultlib.TopModule_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopModule_tb_func_synth
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func/xsim.dir/TopModule_tb_func_synth/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Dec 05 15:20:39 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 2017.629 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '14' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/synth/func'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TopModule_tb_func_synth -key {Post-Synthesis:sim_1:Functional:TopModule_tb} -tclbatch {TopModule_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source TopModule_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TopModule_tb_func_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:25 . Memory (MB): peak = 2017.629 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+current_sim simulation_3
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -mode post-implementation -type functional
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/TopModule_tb_func_impl.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [Netlist 29-17] Analyzing 283 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.719 . Memory (MB): peak = 2017.629 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.719 . Memory (MB): peak = 2017.629 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 128 instances were transformed.
+  RAM256X1S => RAM256X1S (RAMS64E, RAMS64E, RAMS64E, RAMS64E, MUXF7, MUXF7, MUXF8): 128 instances
+
+INFO: [USF-XSim-32] Writing simulation netlist file for design 'impl_1'...
+INFO: [USF-XSim-92] write_verilog -mode funcsim -nolib -force -file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/TopModule_tb_func_impl.v"
+INFO: [USF-XSim-34] Netlist generated:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/TopModule_tb_func_impl.v
+INFO: [USF-XSim-37] Inspecting design source files for 'TopModule_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func'
+"xvlog -m64 --relax -prj TopModule_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/TopModule_tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-311] analyzing module EXMEMReg
+INFO: [VRFC 10-311] analyzing module HiLoReg
+INFO: [VRFC 10-311] analyzing module IDEXReg
+INFO: [VRFC 10-311] analyzing module IFIDReg
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-311] analyzing module JumpAdder
+INFO: [VRFC 10-311] analyzing module MEMWBReg
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_0
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_1
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_2
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_5
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1_3
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1_4
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-311] analyzing module ProgramCounter__2
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-311] analyzing module TopModule
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto fcae05c3ea364b038aab234ad75d419d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot TopModule_tb_func_impl xil_defaultlib.TopModule_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.ALU32Bit
+Compiling module unisims_ver.LUT6
+Compiling module xil_defaultlib.Mux32Bit2To1
+Compiling module unisims_ver.LUT5
+Compiling module xil_defaultlib.Mux32Bit2To1_0
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.RAM256X1S
+Compiling module xil_defaultlib.DataMemory
+Compiling module unisims_ver.LUT4
+Compiling module xil_defaultlib.Mux32Bit3To1
+Compiling module xil_defaultlib.Mux32Bit2To1_1
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module xil_defaultlib.HiLoReg
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.JumpAdder
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(DOA_REG=0,DOB...
+Compiling module unisims_ver.RAMB18E1(INITP_00=256'b011000000...
+Compiling module xil_defaultlib.Mux32Bit2To1_5
+Compiling module xil_defaultlib.ProgramCounter__2
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.FDRE(IS_C_INVERTED=1'b1)
+Compiling module unisims_ver.MUXF8
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.Mux32Bit2To1_2
+Compiling module xil_defaultlib.Mux32Bit3To1_3
+Compiling module xil_defaultlib.Mux32Bit3To1_4
+Compiling module unisims_ver.ffsrce_fdce
+Compiling module unisims_ver.FDCE
+Compiling module xil_defaultlib.IFIDReg
+Compiling module xil_defaultlib.IDEXReg
+Compiling module xil_defaultlib.MEMWBReg
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.EXMEMReg
+Compiling module xil_defaultlib.TopModule
+Compiling module xil_defaultlib.TopModule_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopModule_tb_func_impl
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/xsim.dir/TopModule_tb_func_impl/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Dec 05 15:28:17 2016...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 2017.629 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '14' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TopModule_tb_func_impl -key {Post-Implementation:sim_1:Functional:TopModule_tb} -tclbatch {TopModule_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source TopModule_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TopModule_tb_func_impl' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 2017.629 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+run 13000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+run 13000 ns
+current_sim simulation_5
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/TopModule_tb_behav.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TopModule_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TopModule_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/JumpAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module JumpAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux6Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux6Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IDEXReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEXReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ALU32Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/EXMEMReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEMReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/MEMWBReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWBReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ClkDiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClkDiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit3To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux1Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux1Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/ForwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/new/IFID_FlushHandler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID_FlushHandler
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionFetchUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/SignExtension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux2Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/HiLoReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HiLoReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux5Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux5Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IFIDReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFIDReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/HazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_RegDst, assumed default net type wire [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:421]
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_Branch, assumed default net type wire [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:429]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto fcae05c3ea364b038aab234ad75d419d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopModule_tb_behav xil_defaultlib.TopModule_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ClkDiv
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.Mux5Bit2To1
+Compiling module xil_defaultlib.Mux32Bit3To1
+Compiling module xil_defaultlib.Mux32Bit2To1
+Compiling module xil_defaultlib.Mux6Bit2To1
+Compiling module xil_defaultlib.Mux1Bit2To1
+Compiling module xil_defaultlib.Mux2Bit2To1
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.JumpAdder
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.HiLoReg
+Compiling module xil_defaultlib.ALU32Bit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.SignExtension
+Compiling module xil_defaultlib.IFID_FlushHandler
+Compiling module xil_defaultlib.IFIDReg
+Compiling module xil_defaultlib.IDEXReg
+Compiling module xil_defaultlib.EXMEMReg
+Compiling module xil_defaultlib.MEMWBReg
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.TopModule
+Compiling module xil_defaultlib.TopModule_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopModule_tb_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/xsim.dir/TopModule_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Dec 05 15:38:08 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TopModule_tb_behav -key {Behavioral:sim_1:Functional:TopModule_tb} -tclbatch {TopModule_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source TopModule_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TopModule_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2017.629 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+current_sim simulation_7
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 14000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 14000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 14000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 14000 ns
+current_sim simulation_8
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+current_sim simulation_6
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+current_sim simulation_8
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 13000 ns
+current_sim simulation_7
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 14000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 14000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 14000 ns
+current_sim simulation_8
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/TopModule_tb_behav.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TopModule_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TopModule_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/JumpAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module JumpAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux6Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux6Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IDEXReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEXReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ALU32Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/EXMEMReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEMReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/MEMWBReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWBReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ClkDiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClkDiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit3To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux1Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux1Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/ForwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/new/IFID_FlushHandler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID_FlushHandler
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionFetchUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/SignExtension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux2Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/HiLoReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HiLoReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux5Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux5Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IFIDReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFIDReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/HazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_RegDst, assumed default net type wire [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:423]
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_Branch, assumed default net type wire [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:431]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto fcae05c3ea364b038aab234ad75d419d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopModule_tb_behav xil_defaultlib.TopModule_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ClkDiv
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.Mux5Bit2To1
+Compiling module xil_defaultlib.Mux32Bit3To1
+Compiling module xil_defaultlib.Mux32Bit2To1
+Compiling module xil_defaultlib.Mux6Bit2To1
+Compiling module xil_defaultlib.Mux1Bit2To1
+Compiling module xil_defaultlib.Mux2Bit2To1
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.JumpAdder
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.HiLoReg
+Compiling module xil_defaultlib.ALU32Bit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.SignExtension
+Compiling module xil_defaultlib.IFID_FlushHandler
+Compiling module xil_defaultlib.IFIDReg
+Compiling module xil_defaultlib.IDEXReg
+Compiling module xil_defaultlib.EXMEMReg
+Compiling module xil_defaultlib.MEMWBReg
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.TopModule
+Compiling module xil_defaultlib.TopModule_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopModule_tb_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/xsim.dir/TopModule_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Dec 05 16:09:56 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TopModule_tb_behav -key {Behavioral:sim_1:Functional:TopModule_tb} -tclbatch {TopModule_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source TopModule_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TopModule_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 2017.629 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/TopModule_tb_behav.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TopModule_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TopModule_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/JumpAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module JumpAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux6Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux6Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IDEXReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEXReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ALU32Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/EXMEMReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEMReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/MEMWBReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWBReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ClkDiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClkDiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit3To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux1Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux1Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/ForwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/new/IFID_FlushHandler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID_FlushHandler
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionFetchUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/SignExtension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux2Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/HiLoReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HiLoReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux5Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux5Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IFIDReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFIDReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/HazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_RegDst, assumed default net type wire [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:423]
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_Branch, assumed default net type wire [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:431]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto fcae05c3ea364b038aab234ad75d419d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopModule_tb_behav xil_defaultlib.TopModule_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ClkDiv
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.Mux5Bit2To1
+Compiling module xil_defaultlib.Mux32Bit3To1
+Compiling module xil_defaultlib.Mux32Bit2To1
+Compiling module xil_defaultlib.Mux6Bit2To1
+Compiling module xil_defaultlib.Mux1Bit2To1
+Compiling module xil_defaultlib.Mux2Bit2To1
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.JumpAdder
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.HiLoReg
+Compiling module xil_defaultlib.ALU32Bit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.SignExtension
+Compiling module xil_defaultlib.IFID_FlushHandler
+Compiling module xil_defaultlib.IFIDReg
+Compiling module xil_defaultlib.IDEXReg
+Compiling module xil_defaultlib.EXMEMReg
+Compiling module xil_defaultlib.MEMWBReg
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.TopModule
+Compiling module xil_defaultlib.TopModule_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopModule_tb_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/xsim.dir/TopModule_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Dec 05 16:10:55 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TopModule_tb_behav -key {Behavioral:sim_1:Functional:TopModule_tb} -tclbatch {TopModule_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source TopModule_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TopModule_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 2017.629 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 14000 ns
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'TopModule_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+"xvlog -m64 --relax -prj TopModule_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/JumpAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module JumpAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux6Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux6Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IDEXReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEXReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ALU32Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/EXMEMReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEMReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/MEMWBReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWBReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/ClkDiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClkDiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux32Bit3To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux1Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux1Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/ForwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/new/IFID_FlushHandler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID_FlushHandler
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/InstructionFetchUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/SignExtension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux2Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/HiLoReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HiLoReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/Mux5Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux5Bit2To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/IFIDReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFIDReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/tempProject/tempProject.srcs/sources_1/new/HazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_RegDst, assumed default net type wire [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:423]
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_Branch, assumed default net type wire [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/TopModule.v:431]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto fcae05c3ea364b038aab234ad75d419d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopModule_tb_behav xil_defaultlib.TopModule_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ClkDiv
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.Mux5Bit2To1
+Compiling module xil_defaultlib.Mux32Bit3To1
+Compiling module xil_defaultlib.Mux32Bit2To1
+Compiling module xil_defaultlib.Mux6Bit2To1
+Compiling module xil_defaultlib.Mux1Bit2To1
+Compiling module xil_defaultlib.Mux2Bit2To1
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.JumpAdder
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.HiLoReg
+Compiling module xil_defaultlib.ALU32Bit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.SignExtension
+Compiling module xil_defaultlib.IFID_FlushHandler
+Compiling module xil_defaultlib.IFIDReg
+Compiling module xil_defaultlib.IDEXReg
+Compiling module xil_defaultlib.EXMEMReg
+Compiling module xil_defaultlib.MEMWBReg
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.TopModule
+Compiling module xil_defaultlib.TopModule_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopModule_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2017.629 ; gain = 0.000
+run 14000 ns
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v" into library work [C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sources_1/imports/temp/RegisterFile.v:1]
+[Mon Dec 05 16:13:17 2016] Launched synth_1...
+Run output will be captured here: C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.runs/synth_1/runme.log
+launch_runs impl_1
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Dec 05 16:14:19 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.runs/impl_1/runme.log
+close_design
+close_design
+current_sim simulation_7
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -mode post-implementation -type functional
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/TopModule_tb_func_impl.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [Netlist 29-17] Analyzing 283 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.725 . Memory (MB): peak = 2017.629 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.725 . Memory (MB): peak = 2017.629 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 128 instances were transformed.
+  RAM256X1S => RAM256X1S (RAMS64E, RAMS64E, RAMS64E, RAMS64E, MUXF7, MUXF7, MUXF8): 128 instances
+
+open_run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 2017.629 ; gain = 0.000
+INFO: [USF-XSim-32] Writing simulation netlist file for design 'impl_1'...
+INFO: [USF-XSim-92] write_verilog -mode funcsim -nolib -force -file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/TopModule_tb_func_impl.v"
+INFO: [USF-XSim-34] Netlist generated:C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/TopModule_tb_func_impl.v
+INFO: [USF-XSim-37] Inspecting design source files for 'TopModule_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func'
+"xvlog -m64 --relax -prj TopModule_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/TopModule_tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-311] analyzing module EXMEMReg
+INFO: [VRFC 10-311] analyzing module HiLoReg
+INFO: [VRFC 10-311] analyzing module IDEXReg
+INFO: [VRFC 10-311] analyzing module IFIDReg
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-311] analyzing module JumpAdder
+INFO: [VRFC 10-311] analyzing module MEMWBReg
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_0
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_1
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_2
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_5
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1_3
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1_4
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-311] analyzing module ProgramCounter__2
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-311] analyzing module TopModule
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto fcae05c3ea364b038aab234ad75d419d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot TopModule_tb_func_impl xil_defaultlib.TopModule_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.ALU32Bit
+Compiling module unisims_ver.LUT6
+Compiling module xil_defaultlib.Mux32Bit2To1
+Compiling module unisims_ver.LUT5
+Compiling module xil_defaultlib.Mux32Bit2To1_0
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.RAM256X1S
+Compiling module xil_defaultlib.DataMemory
+Compiling module unisims_ver.LUT4
+Compiling module xil_defaultlib.Mux32Bit3To1
+Compiling module xil_defaultlib.Mux32Bit2To1_1
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module xil_defaultlib.HiLoReg
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.JumpAdder
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(DOA_REG=0,DOB...
+Compiling module unisims_ver.RAMB18E1(INITP_00=256'b011000000...
+Compiling module xil_defaultlib.Mux32Bit2To1_5
+Compiling module xil_defaultlib.ProgramCounter__2
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.FDRE(IS_C_INVERTED=1'b1)
+Compiling module unisims_ver.MUXF8
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.Mux32Bit2To1_2
+Compiling module xil_defaultlib.Mux32Bit3To1_3
+Compiling module xil_defaultlib.Mux32Bit3To1_4
+Compiling module unisims_ver.ffsrce_fdce
+Compiling module unisims_ver.FDCE
+Compiling module xil_defaultlib.IFIDReg
+Compiling module xil_defaultlib.IDEXReg
+Compiling module xil_defaultlib.MEMWBReg
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.EXMEMReg
+Compiling module xil_defaultlib.TopModule
+Compiling module xil_defaultlib.TopModule_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopModule_tb_func_impl
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/xsim.dir/TopModule_tb_func_impl/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Dec 05 16:16:48 2016...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 2017.629 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '14' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TopModule_tb_func_impl -key {Post-Implementation:sim_1:Functional:TopModule_tb} -tclbatch {TopModule_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source TopModule_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TopModule_tb_func_impl' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:24 . Memory (MB): peak = 2017.629 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 14000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 14000 ns
+archive_project C:/Users/Tod/Documents/Fall2016/369/Labs/Final_Labs23.xpr.zip -temp_dir C:/Users/Tod/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-9224-SailePC -force -exclude_run_results
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Tod/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-9224-SailePC' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+WARNING: [Coretcl 2-105] Run 'synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

@@ -1,0 +1,25 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.sim/sim_1/impl/func/TopModule_tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-311] analyzing module EXMEMReg
+INFO: [VRFC 10-311] analyzing module HiLoReg
+INFO: [VRFC 10-311] analyzing module IDEXReg
+INFO: [VRFC 10-311] analyzing module IFIDReg
+INFO: [VRFC 10-311] analyzing module InstructionFetchUnit
+INFO: [VRFC 10-311] analyzing module JumpAdder
+INFO: [VRFC 10-311] analyzing module MEMWBReg
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_0
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_1
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_2
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1_5
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1_3
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1_4
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-311] analyzing module ProgramCounter__2
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-311] analyzing module TopModule
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tod/Documents/Fall2016/369/Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopModule_tb

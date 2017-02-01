@@ -1,0 +1,38 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto fcae05c3ea364b038aab234ad75d419d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopModule_tb_behav xil_defaultlib.TopModule_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ClkDiv
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.Mux5Bit2To1
+Compiling module xil_defaultlib.Mux32Bit3To1
+Compiling module xil_defaultlib.Mux32Bit2To1
+Compiling module xil_defaultlib.Mux6Bit2To1
+Compiling module xil_defaultlib.Mux1Bit2To1
+Compiling module xil_defaultlib.Mux2Bit2To1
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.PCAdder
+Compiling module xil_defaultlib.JumpAdder
+Compiling module xil_defaultlib.InstructionFetchUnit
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.HiLoReg
+Compiling module xil_defaultlib.ALU32Bit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.SignExtension
+Compiling module xil_defaultlib.IFID_FlushHandler
+Compiling module xil_defaultlib.IFIDReg
+Compiling module xil_defaultlib.IDEXReg
+Compiling module xil_defaultlib.EXMEMReg
+Compiling module xil_defaultlib.MEMWBReg
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.TopModule
+Compiling module xil_defaultlib.TopModule_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TopModule_tb_behav

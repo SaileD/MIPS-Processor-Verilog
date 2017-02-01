@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "TopModule_tb_func_synth.v"
+verilog xil_defaultlib  "../../../../../../Lab_Copies/Labs16-24/Labs16-24.srcs/sim_1/imports/temp/TopModule_tb.v"
+
+# Do not sort compile order
+nosort

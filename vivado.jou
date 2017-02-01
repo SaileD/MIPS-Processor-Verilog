@@ -1,0 +1,149 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Dec 05 14:37:09 2016
+# Process ID: 9224
+# Current directory: C:/Users/Tod/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3572
+# Log file: C:/Users/Tod/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/Tod/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Tod/Documents/Fall2016/369/Labs/Final/Final.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_simulation
+source TopModule_tb.tcl
+restart
+run 13000 ns
+launch_simulation -mode post-synthesis -type functional
+source TopModule_tb.tcl
+restart
+run 13000 ns
+restart
+run 13000 ns
+launch_simulation -mode post-implementation -type functional
+source TopModule_tb.tcl
+restart
+run 13000 ns
+current_sim simulation_2
+synth_design -rtl -name rtl_1
+current_sim simulation_1
+close_sim
+launch_simulation
+source TopModule_tb.tcl
+relaunch_sim
+restart
+run 13000 ns
+run 13000 ns
+current_sim simulation_2
+relaunch_sim
+run 13000 ns
+current_design rtl_1
+refresh_design
+current_sim simulation_4
+close_sim
+launch_simulation
+source TopModule_tb.tcl
+refresh_design
+restart
+run 13000 ns
+current_sim simulation_2
+relaunch_sim
+run 13000 ns
+close_design
+close_design
+close_design
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+close_sim
+launch_simulation -mode post-synthesis -type functional
+source TopModule_tb.tcl
+restart
+run 13000 ns
+current_sim simulation_3
+close_sim
+launch_simulation -mode post-implementation -type functional
+source TopModule_tb.tcl
+restart
+run 13000 ns
+restart
+run 13000 ns
+restart
+run 13000 ns
+restart
+run 13000 ns
+run 13000 ns
+restart
+run 13000 ns
+run 13000 ns
+current_sim simulation_5
+close_sim
+launch_simulation
+source TopModule_tb.tcl
+restart
+run 13000 ns
+restart
+run 13000 ns
+current_sim simulation_7
+restart
+run 14000 ns
+restart
+run 14000 ns
+restart
+run 14000 ns
+restart
+run 14000 ns
+current_sim simulation_8
+restart
+run 13000 ns
+restart
+run 13000 ns
+current_sim simulation_6
+close_sim
+current_sim simulation_8
+restart
+run 13000 ns
+restart
+run 13000 ns
+restart
+run 13000 ns
+current_sim simulation_7
+restart
+run 14000 ns
+restart
+run 14000 ns
+restart
+run 14000 ns
+current_sim simulation_8
+close_sim
+launch_simulation
+source TopModule_tb.tcl
+close_sim
+launch_simulation
+source TopModule_tb.tcl
+restart
+run 14000 ns
+relaunch_sim
+run 14000 ns
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+close_design
+close_design
+current_sim simulation_7
+close_sim
+launch_simulation -mode post-implementation -type functional
+source TopModule_tb.tcl
+restart
+run 14000 ns
+restart
+run 14000 ns
+archive_project C:/Users/Tod/Documents/Fall2016/369/Labs/Final_Labs23.xpr.zip -temp_dir C:/Users/Tod/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-9224-SailePC -force -exclude_run_results
